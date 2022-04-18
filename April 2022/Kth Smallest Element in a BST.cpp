@@ -21,7 +21,7 @@ int inorder(TreeNode*curr, int &k){
         return inorder(root, k);
     }
 
-//Iterative
+//Iterative - Faster
 int kthSmallest(TreeNode* root, int k) {
         stack<TreeNode *> st;
         while(!st.empty() || root){
