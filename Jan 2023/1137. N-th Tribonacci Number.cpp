@@ -8,5 +8,6 @@ int tribonacci(int n) {
             c2 = c3;
             c3 = temp;
         }
+        
         return c3;
     }
