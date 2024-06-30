@@ -12,6 +12,7 @@ int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
 
         
         for (auto& edge : edges) {
+            
             if (edge[0] == 3) {
                 if (uni(edge[1], edge[2], rootA)) {
                     aliceEdges++;
