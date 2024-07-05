@@ -29,3 +29,4 @@ vector<int> nodesBetweenCriticalPoints(ListNode* head) {
         
         return {minDistance, maxDistance};
     }
+    
