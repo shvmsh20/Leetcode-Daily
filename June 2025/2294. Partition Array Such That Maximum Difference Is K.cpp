@@ -10,5 +10,4 @@ int partitionArray(vector<int>& nums, int k) {
         }
         return count;
         
-        
     }
